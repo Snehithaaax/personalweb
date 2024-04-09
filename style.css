@@ -212,7 +212,7 @@ body {
     left: 50%;
 
 }
-.round{
+/* .round{
     position: absolute;
     height: 30px;
     width: 30px;
@@ -221,7 +221,7 @@ body {
     top:32px;
     z-index: 10;
     background-color:#003049;
-}
+} */
 
 .right-container .round{
     left: -10px;

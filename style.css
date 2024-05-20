@@ -326,38 +326,44 @@ body {
     justify-content: center;
 }
 .mainbox2{
-    height: 800px;
-    width: 100%;
+    height: 500px;
+    width: 80%;
+    background-color: #FDF0D5;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
+    margin-left: 150px;
 }
-.box {
-    height: 300px;
-    width: 23%;
-    background-color: white;
-    padding: 20px 0px 15px;
-    margin-top:15px;
+.project-box{
+    height: 90%;
+    width: 80%;
+    background-color:white;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
 }
-.box-img{
-    background-image: url(amazon-clone.jpg);
-    background-size: cover;
-    border-radius: 10px;
-    height: 200px;
-    background-size: cover;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+.project-box a{
+    text-decoration: none;
+    color: #FDF0D5;
+    border-radius: 2px solid #003049;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.project-box h2{
+    height: 40px;
+    width: 80%;
+    background-color:#003049;
+    color: #FDF0D5;
+    border-radius: 0.75rem;
+    margin-left: 20px;
+    margin-top: 30px;
+}
 
-}
-.box-content{
-    border: 2px solid #003049;
-    border-radius: 15px ;
-    margin-left: 1rem;
-    margin-right:1rem;
-}
+
+
+
+
 .box-content a{
     text-decoration: none;
     margin-left: 50px;
@@ -370,8 +376,7 @@ body {
         height: 800px;
         margin-top: 120px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+       
     
     }
     
